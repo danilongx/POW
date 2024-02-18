@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>uDeal</title>
+    <link rel="stylesheet" href="udealCSS.css" />
+  </head>
+  <body>
+    <header
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(235, 157, 12);
+        margin: 5%;
+      "
+    >
+      <img style="width: 15%" src="./IMAGES/UDeal (1).png" alt="" srcset="" />
+      <div style="width: 1%"></div>
+      <h2>UDEAL INC.</h2>
+    </header>
+    <main>
+      <section id="cardContainer">
+        <div class="card">
+          <img
+            style="width: 30%; border-radius: 10px; object-fit: cover"
+            src="./IMAGES/VISA_DANILO.jpg"
+          />
+          <div style="width: 10%"></div>
+          <p>
+            Danilo Castaño Puerto Systems Engineer Development Specialization
+          </p>
+        </div>
+
+        <div class="card">
+          <img
+            style="width: 30%; border-radius: 10px; object-fit: cover"
+            src="./IMAGES/2.jpg"
+          />
+          <div style="width: 10%"></div>
+          <p>
+            Rafael Balanta Sanchez Systems Engineer Information networks
+            Specialization.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div
+          style="margin: 10%; border: 1px solid #fff; padding: 2%;"
+        >
+          <div style="display: flex; justify-content: space-around; margin-bottom: 10px;">
+            <input
+              type="text"
+              id="name"
+              placeholder="Nombre"
+              style="border-radius: 10px; border: 2px solid #fff; height: 90x"
+            />
+
+            <input
+              type="text"
+              id="profile"
+              placeholder="Perfil"
+              style="border-radius: 10px; border: 2px solid #fff; height: 90x"
+            />
+          </div>
+    
+          <div style="display: flex; justify-content: center;">
+            <button 
+            onclick="addTeams()"
+            style="border: 2px solid #fff;
+             border-radius: 10%; 
+             cursor: pointer; 
+             background-color: #000;  
+             color: #fff;" >Añadir</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./htmlv2.js"></script>
+  </body>
+</html>
